@@ -1,8 +1,4 @@
-# Open MCT Integration Tutorials
-
-These tutorials will walk you through the simple process of integrating your telemetry systems with Open MCT.  In case you don't have any telemetry systems, we've included a reference implementation of a historical and realtime server.  We'll take you through the process of integrating those services with Open MCT.
-
-## Tutorial Prerequisites
+## Prerequisites
 
 * [node.js](https://nodejs.org/en/)
     * Mac OS: We recommend using [Homebrew](https://brew.sh/) to install node.
