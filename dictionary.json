@@ -1,0 +1,126 @@
+{
+    "name": "Sensors",
+    "key": "sc",
+    "measurements": [
+        {
+            "name": "Ambient Temperature",
+            "key": "prop.amb_temp",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "℃",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Barometer",
+            "key": "prop.barometer",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "mbar",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "key": "prop.light",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "Lux",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "IR Temperature",
+            "key": "prop.ir_temp",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "℃",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Humidity",
+            "key": "prop.humidity",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "RH",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
